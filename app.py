@@ -1,7 +1,6 @@
 from flask import Flask
 import os
 import logging
-import redis
 import gevent
 
 app = Flask(__name__)
