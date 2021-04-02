@@ -14,3 +14,7 @@ def hello_world():
 @app.route('/test')
 def foo():
     return "ok"
+
+@app.route('/abi')
+def bar():
+    return {"A":"C",1:123}
