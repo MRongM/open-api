@@ -15,6 +15,6 @@ def hello_world():
 def foo():
     return "ok"
 
-@app.route('/abi')
-def bar():
-    return {"A":"C",1:123}
+@app.route('/ping')
+def ping():
+    return "pong"
