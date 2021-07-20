@@ -15,6 +15,6 @@ def hello_world():
 def foo():
     return "ok"
 
-@app.route('/ping')
+@app.route('/ping',methods=["POST","GET"])
 def ping():
     return "pong"
